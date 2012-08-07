@@ -1,0 +1,19 @@
+Пример работы node.js приложения с использованием express, stylus, mongodb. 
+
+Для организации приложения используется фреймворк Express:
+
+http://expressjs.com/
+
+Для компиляции CSS используется Stylus:
+
+http://learnboost.github.com/stylus/
+
+Для связи Stylus и Express используется middleware.md:
+
+https://github.com/LearnBoost/stylus/blob/master/docs/middleware.md
+
+Для компиляции шаблонов используется jade: 
+
+http://jade-lang.com/
+
+

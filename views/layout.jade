@@ -1,0 +1,23 @@
+!!! 5
+html(lang='en')
+  head
+      link(rel='stylesheet', href='/stylesheets/style.css')
+      link(rel='stylesheet', href='/stylesheets/demos.css', type='text/css', media='screen')
+      link(rel='stylesheet', href='/stylesheets/style1.css')
+      script(type='text/javascript', src='/RGraph.common.core.js')
+      script(type='text/javascript', src='/RGraph.bar.js')
+      script(src='//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js')
+      script(src='/socket.io/socket.io.js')
+      script(src="/smoothie.js")
+      script(src='/client.js')
+      script(src='/graphView.js')
+      script(src='/date.js')
+
+body
+section#wrapper!= body
+        canvas#cvs(width='600', height='250')canvas#cvs1(width='600', height='250')
+        script(type='text/javascript')
+          var socket = io.connect();$('a').hide();
+          socket.on('count', function (data) {
+                  datastore=data.number;datastore1=data.number1;
+          }); 

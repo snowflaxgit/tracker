@@ -1,0 +1,129 @@
+
+/* line 199 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\mixins\css3.styl */
+
+/* line 3 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+
+/* line 7 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strike,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline}
+
+/* line 15 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+
+/* line 18 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+article,aside,dialog,figure,footer,header,hgroup,menu,nav,section{display:block}
+
+/* line 22 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+
+/* line 24 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+body{font:62.5%/1.5 Helvetica,Arial,"Lucida Grande","Lucida Sans",Tahoma,Verdana,sans-serif;text-align:center;background:#fff;}
+
+/* line 28 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+body label{display:block;margin-bottom:0;color:#00f;font-size:15px}
+
+/* line 33 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+table{border-collapse:collapse}
+
+/* line 35 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+tr,td{border:1px solid #999;padding:4px;}
+
+/* line 39 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+tr a.delete,td a.delete{color:#f00}
+
+/* line 42 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+#wrapper{width:920px;text-align:left;margin-left:auto;margin-right:auto;background:#fff;padding:20px;-webkit-border-bottom-left-radius:15px;-moz-border-bottom-left-radius:15px;-o-border-bottom-left-radius:15px;border-bottom-left-radius:15px;-webkit-border-bottom-right-radius:15px;-moz-border-bottom-right-radius:15px;-o-border-bottom-right-radius:15px;border-bottom-right-radius:15px}
+
+/* line 51 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+
+/* line 58 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+
+/* line 1 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+h1{color:#666;font-size:4em;line-height:.9em;margin-bottom:.9em}
+
+/* line 7 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+h2{font-size:1.8em;line-height:1em;margin-bottom:1em}
+
+/* line 12 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+h3{font-size:1.6em;line-height:1.13em;margin-bottom:1.13em}
+
+/* line 17 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+h4{font-size:1.4em;line-height:1.29em;margin-bottom:1.29em}
+
+/* line 22 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+h5{font-size:1.3em;line-height:1.38em;margin-bottom:1.38em}
+
+/* line 27 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+h6{font-size:1.2em;line-height:1.5em;margin-bottom:1.5em}
+
+/* line 32 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+p,q,cite,address,ul,ol,dl{font-size:1.2em;line-height:1.5em;margin-bottom:1.5em}
+
+/* line 37 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+li,dd,dt{font-size:1em}
+
+/* line 40 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+a{text-decoration:underline;color:#33c;outline:none}
+
+/* line 45 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+a:hover{text-decoration:none}
+
+/* line 48 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+code,samp,dfn,kbd,var,acronym,ins,del,abbr{speak:spell-out}
+
+/* line 53 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\partials\typography.styl */
+acronym{speak:normal}
+
+/* line 55 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+
+/* line 57 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table{width:100%;display:table;}
+
+/* line 60 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table .two-column{display:table-row;}
+
+/* line 62 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table .two-column .cell{display:table-cell;vertical-align:top;width:50%;}
+
+/* line 66 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table .two-column .cell *{width:90%}
+
+/* line 68 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table .three-column{display:table-row;}
+
+/* line 70 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table .three-column .cell{display:table-cell;width:33.33333%;}
+
+/* line 73 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table .three-column .cell *{width:90%}
+
+/* line 75 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table .four-column{display:table-row;}
+
+/* line 77 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+.css-table .four-column .cell{display:table-cell;width:25%}
+
+/* line 81 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+
+/* line 83 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+header{background:#f00060;}
+
+/* line 85 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+header nav{width:960px;text-align:right;margin-left:auto;margin-right:auto;}
+
+/* line 90 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+header nav ul{list-style:none;padding:10px;margin-bottom:0;}
+
+/* line 94 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+header nav ul li{display:inline;margin-left:1%;}
+
+/* line 97 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+header nav ul li a{background:#fc9200;-webkit-border-radius:15px;-moz-border-radius:15px;-o-border-radius:15px;border-radius:15px;display:inline-block;padding:5px 15px 6px;color:#fff;text-decoration:none;position:relative;cursor:pointer;}
+
+/* line 106 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+header nav ul li a:hover{background-color:#db0d5f}
+
+/* line 109 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+
+/* line 111 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+footer{color:#666;border-top:1px solid #ccc;padding-top:1.5em;}
+
+/* line 115 : C:\node\nodejs\node_modules\6-8-12\new insert_del\stylus\stylesheets\style1.styl */
+footer ul{list-style:none}

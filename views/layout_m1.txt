@@ -1,0 +1,28 @@
+!!! 5
+html(lang='en')
+  head
+      link(rel='stylesheet', href='/stylesheets/style.css')
+      link(rel='stylesheet', href='/stylesheets/demos.css', type='text/css', media='screen')
+      link(rel='stylesheet', href='/stylesheets/style1.css')
+      script(type='text/javascript', src='/RGraph.common.core.js')
+      script(type='text/javascript', src='/RGraph.bar.js')
+      script(src='//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js')
+      script(src='/socket.io/socket.io.js')
+      script(src="/smoothie.js")
+      script(src='/client.js')
+      script(src='/mananMy.js')
+
+
+body
+
+section#wrapper!= body
+        canvas#mycanvas
+        canvas#cvs(width='600', height='250')
+        script(type='text/javascript')
+          var socket = io.connect();
+           
+          // Data
+          socket.on('count', function (data) {
+                
+                $('label').text(data.ct);      		                var ln=data.number.length;for(i=0;i<ln;i++){$('tr').append('Current Users:' +data.number[i].ip  + ' - ' + data.number[i].city +'-'+data.number[i].region + '-' +data.number[i].time +data.number[i].browser + data.number[i].os +data.number[i].res +data.number[i].urlpath+'-'+data.number[i].counter);}                                                                                                 				
+          });
